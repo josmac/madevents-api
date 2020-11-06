@@ -1,6 +1,6 @@
 require("dotenv").config();
 require("../config/db.config");
-const User = require("../models/User.model");
+const User = require("../models/user.model");
 const faker = require("faker");
 
 const userIds = [];
