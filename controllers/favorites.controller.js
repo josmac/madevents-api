@@ -10,6 +10,7 @@ module.exports.createFavorite = (req, res, next) => {
     eventDates,
     eventPrices,
   } = req.body;
+  console.log(req.body);
   const finder = { user: req.currentUser.id, eventId: eventId };
   const params = {
     user: req.currentUser.id,
